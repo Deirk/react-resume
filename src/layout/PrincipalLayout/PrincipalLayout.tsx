@@ -35,8 +35,6 @@ const PrincipalLayout: React.FC<PrincipalLayoutInterface> = ({ children }) => {
 				<Grid container item xs={7} md={7} sm={12} padding='4% 0 4%'>
 					<Grid item xs={10}>
 						<Navbar />
-					</Grid>
-					<Grid item xs={10}>
 						{children}
 					</Grid>
 				</Grid>
