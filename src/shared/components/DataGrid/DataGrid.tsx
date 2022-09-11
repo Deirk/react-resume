@@ -9,7 +9,7 @@ const DataGrid: React.FC<DataGridInterface> = ({ options, columns }) => {
 	const newColumns = 12 / columns;
 
 	return (
-		<Grid item container xs={12} className={styles.DataGrid}>
+		<Grid item container xs={12} ml='1%'>
 			{
 				options.map((option, index) => <Grid item xs={newColumns} key={`information-${option}-${index}`}>
 					<p className={styles.DataGrid__text}>{option}</p>
