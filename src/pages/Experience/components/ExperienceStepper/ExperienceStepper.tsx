@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Step, StepContent, StepLabel, Stepper, Typography } from '@mui/material';
+import { Box, Button, Grid, Step, StepContent, StepLabel, Stepper } from '@mui/material';
 import { useState } from 'react';
 import { ExperienceStepperInterface } from './interfaces';
 import styles from './styles/ExperienceStepper.module.scss';

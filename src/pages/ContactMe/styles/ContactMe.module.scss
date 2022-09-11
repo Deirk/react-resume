@@ -1,0 +1,21 @@
+.ContactMe__input {
+    color: white;
+    border-color: white;
+
+    ::placeholder {
+        color: whitesmoke;
+    }
+}
+
+.ContactMe__author {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.ContactMe__quote {
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+}
