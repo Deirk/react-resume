@@ -1,0 +1,43 @@
+.PrincipalLayout {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../../assets/images/global_background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 98vw 95vh;
+    background-color: black;
+}
+
+.layout__name {
+    width: 100%;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.layout__degree {
+    width: 100%;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.layout__picture {
+    width: 80%;
+}
+
+.personal-information__card {
+    position: fixed;
+    width: 30vw;
+    height: 12vw;
+    bottom: 2%;
+    left: 8%;
+    background: url('../../../assets/images/information_background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    color: white;
+}

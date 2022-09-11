@@ -1,0 +1,1 @@
+export { default as PrincipalLayout } from './PrincipalLayout';
